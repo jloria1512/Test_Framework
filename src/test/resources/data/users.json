@@ -1,0 +1,20 @@
+{
+  "dataSet": [
+    {
+      "email": "hola@hola.com",
+      "firstName": "Juan",
+      "lastName": "Macis",
+      "telephone": "88833311",
+      "password": "hola",
+      "shouldLogin": true
+    },
+    {
+      "email": "holas@holafake.com",
+      "password": "password",
+      "firstName": "Mariana",
+      "lastName": "Araya",
+      "telephone": "11883322",
+      "shouldLogin": false
+    }
+  ]
+}

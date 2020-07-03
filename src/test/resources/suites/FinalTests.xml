@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Final tests Suite" parallel="tests" thread-count="3">
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="Product Comparison">
+        <classes>
+            <class name="FinalTests.CostComparisonTestCase">
+            </class>
+        </classes>
+    </test>
+    <test name="Product Search And Add To Cart">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="FinalTests.ProductSearchTestCase">
+            </class>
+        </classes>
+    </test>
+    <test name="Register and verify login">
+        <classes>
+            <class name="FinalTests.RegisterTestCase"></class>
+        </classes>
+    </test>
+</suite>

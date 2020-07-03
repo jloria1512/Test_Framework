@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Search related Suite">
+    <parameter name="browser" value="firefox"></parameter>
+    <parameter name="dataFile" value="src/test/resources/data/search.json"></parameter>
+    <test name="Search Functionality - Chrome">
+        <classes>
+            <class name="selenium.SearchTests"></class>
+        </classes>
+    </test>
+</suite>

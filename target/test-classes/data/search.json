@@ -1,0 +1,12 @@
+{
+  "dataSet": [
+    {
+      "searchCriteria": "macbook",
+      "expectedResults": 3
+    },
+    {
+      "searchCriteria": "pablo",
+      "expectedResults": 0
+    }
+  ]
+}

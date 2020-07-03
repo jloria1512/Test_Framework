@@ -1,0 +1,1 @@
+{"uuid":"ccc59f1b-7a8a-4714-9d0e-3a6dd9a35d7f","name":"Product Search And Add To Cart","children":["aa3e59da-6b9d-43be-b678-d8ba4715fc21"],"befores":[{"name":"setupTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1593804014694,"stop":1593804014699}],"afters":[],"links":[],"start":1593804014666,"stop":1593804025005}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Account related Suite" parallel="tests" thread-count="3">
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="Login Functionality - Firefox">
+        <classes>
+            <class name="selenium.AccountTests">
+                <methods>
+                    <include name="Test_Login_Successful"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Get a product from the home page and add it to the cart">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="selenium.AddToCartTests">
+            </class>
+        </classes>
+    </test>
+    <test name="Search Functionality - Chrome">
+        <classes>
+            <class name="selenium.SearchTests"></class>
+        </classes>
+    </test>
+</suite>
